@@ -10,6 +10,7 @@ env:
 
 jobs:
   build-test-push:
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write  # necesario para commit/push del deployment.yaml
