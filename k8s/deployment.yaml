@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: rsanmartin/product-service-argo-cd:f247349
+        image: rsanmartin/product-service-argo-cd:de7968c
         ports:
         - containerPort: 3000
         env:
